@@ -1,1 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background: #444;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+    min-height: 100vh;
+}
+
+#about {
+    background: #f4f4f4;
+}
+
+#services {
+    background: #eaeaea;
+}
+
+#contact {
+    background: #ddd;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
 
